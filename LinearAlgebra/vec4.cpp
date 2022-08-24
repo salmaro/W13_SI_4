@@ -29,7 +29,7 @@ vec4 vec4::operator*(const int& factor2)
     return vec4(this->x * factor2, this->y * factor2, this->z * factor2, this->w * factor2);
 }
 
-bool vec4::operator==(const vec4& vec)
+bool vec4::operator==(const vec4& vec) const
 {
     if (this->x == vec.x && this->y == vec.y && this->z == vec.z && this->w == vec.w)
         return true;

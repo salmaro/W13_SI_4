@@ -12,7 +12,7 @@ public:
 	//iloczyn skalarny
 	vec4 operator* (const vec4& vecIn);
 	vec4 operator* (const int& factor2);
-	bool operator== (const  vec4& vec4);
+	bool operator== (const  vec4& vec4) const; 
 	bool isEqual(const vec4& vec1, const vec4& vec2);
 };
 

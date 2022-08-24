@@ -5,6 +5,7 @@
 #include "../LinearAlgebra/vec4.h"
 #include "../LinearAlgebra/mat4.h"
 
+
 int main()
 {
     vec4 vec1{ 1, 2, 3, 4 };

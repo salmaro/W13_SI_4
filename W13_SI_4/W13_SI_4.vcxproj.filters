@@ -18,5 +18,13 @@
     <ClCompile Include="W13_SI_4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="myFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="myFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

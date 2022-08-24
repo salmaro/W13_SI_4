@@ -127,12 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="myFunction.cpp" />
     <ClCompile Include="W13_SI_4.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LinearAlgebra\LinearAlgebra.vcxproj">
       <Project>{bc0e9a6d-b71d-481b-8bc3-6d81196111be}</Project>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="myFunction.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
